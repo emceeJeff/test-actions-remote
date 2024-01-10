@@ -2,7 +2,7 @@ name: Example Workflow
 
 on:
   workflow_dispatch:
-
+  workflow_call:
 jobs:
   log-time:
     runs-on: ubuntu-latest
