@@ -1,0 +1,5 @@
+name: 'Log Current Time'
+description: 'Logs the current time'
+runs:
+  using: 'node12'
+  main: 'log-time.js'
