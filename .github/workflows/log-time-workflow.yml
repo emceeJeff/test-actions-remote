@@ -1,0 +1,11 @@
+name: Example Workflow
+
+on:
+  workflow_dispatch:
+  workflow_call:
+jobs:
+  log-time:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: emceeJeff/test-actions-remote/.github/actions/log-time
